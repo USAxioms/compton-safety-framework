@@ -1,0 +1,39 @@
+{
+  "name": "@compton-class/safety-framework",
+  "version": "1.0.0",
+  "description": "Compton-Class Nuclear-Grade Safety Framework - Formal Logic to Executable Code",
+  "author": "Michael Aaron Russell",
+  "license": "MIT",
+  "main": "dist/index-compton.js",
+  "types": "dist/index-compton.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/DemonstrateComptonFramework.js",
+    "demo": "npm run build && node dist/DemonstrateComptonFramework.js",
+    "test": "npm run build && node dist/test-compton.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "safety",
+    "formal-logic",
+    "executable-code",
+    "constraint",
+    "cryptographic-proof",
+    "audit-log",
+    "compton-class",
+    "nuclear-grade",
+    "WAD-18",
+    "bigint"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/universal-axiom/compton-safety-framework"
+  }
+}
